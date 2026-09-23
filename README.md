@@ -6,6 +6,9 @@ Positivo = molécula activa frente a MMP-9 humana (CHEMBL321 / P14780).
 
 ## Consultar los resultados
 
+- [Artículo IEEE en PDF](reports/ieee/informe_IEEE_MMP9.pdf) y
+  [versión editable en Word](reports/ieee/informe_IEEE_MMP9.docx), con autores,
+  afiliación, resultados, figuras y referencias.
 - [Informe sencillo con figuras](reports/informe_rendimiento.html) (abrir en navegador).
 - [Informe en Markdown](reports/informe_rendimiento.md), con referencias a los `.py`.
 - [Tabla resumen](reports/rendimiento_resumen.csv).
@@ -15,8 +18,9 @@ Positivo = molécula activa frente a MMP-9 humana (CHEMBL321 / P14780).
 - `results/main/`: métricas por ejecución, predicciones, ajuste de hiperparámetros,
   particiones, versiones, modelos de la semilla 0 y auditoría de resultados.
 
-El informe IEEE queda para una fase posterior. El informe presente describe los
-resultados computacionales y sus limitaciones; no demuestra eficacia farmacológica.
+Los informes describen resultados computacionales y sus limitaciones;
+no demuestran eficacia farmacológica. El artículo IEEE se genera mediante
+`scripts/build_ieee_report.py` y su PDF se revisó visualmente en sus cuatro páginas.
 
 ## Organización
 
