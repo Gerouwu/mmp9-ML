@@ -108,3 +108,11 @@ fecha, consultas y hashes en `provenance.json`. Las tablas derivadas mantienen l
 atribución y licencia de los datos de origen. Código docente original atribuido
 a los autores indicados en su encabezado; se conserva sin modificaciones.
 Documentación de las bibliotecas enlazada en el informe.
+
+## Licencia
+
+El código y la documentación originales del proyecto se publican bajo la
+[licencia MIT](LICENSE), con autoría de Geronimo Ortiz Porras y Samuel Tomas
+Rubiano Meneses. Los datos de ChEMBL y sus tablas derivadas mantienen CC BY-SA
+3.0; el material docente de referencia conserva los derechos de sus titulares.
+Consulte [las atribuciones y excepciones](THIRD_PARTY_NOTICES.md).
