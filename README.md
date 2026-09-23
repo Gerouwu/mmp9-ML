@@ -9,6 +9,9 @@ Positivo = molécula activa frente a MMP-9 humana (CHEMBL321 / P14780).
 - [Informe sencillo con figuras](reports/informe_rendimiento.html) (abrir en navegador).
 - [Informe en Markdown](reports/informe_rendimiento.md), con referencias a los `.py`.
 - [Tabla resumen](reports/rendimiento_resumen.csv).
+- [Todas las imágenes PNG en ZIP](reports/imagenes_mmp9.zip): matrices de las seis
+  combinaciones en conteos medios y porcentajes, gráficas individuales y comparaciones.
+  Regenerar con `python -m mmp9.plots`; detalles en `reports/imagenes/README.md`.
 - `results/main/`: métricas por ejecución, predicciones, ajuste de hiperparámetros,
   particiones, versiones, modelos de la semilla 0 y auditoría de resultados.
 
