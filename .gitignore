@@ -1,0 +1,9 @@
+.venv/
+.tools/
+__pycache__/
+.pytest_cache/
+*.pyc
+results/smoke/
+results/*/runs/
+data/interim/
+*.log

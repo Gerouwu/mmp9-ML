@@ -1,0 +1,221 @@
+<!doctype html><html lang="es"><meta charset="utf-8"><title>MMP-9 · Rendimiento</title>
+<style>body{font:16px/1.65 system-ui,sans-serif;color:#203245;max-width:1100px;margin:48px auto;padding:0 30px}
+h1{font-size:30px;color:#075963}h2{font-size:21px;border-bottom:1px solid #ccd9dd;padding-bottom:8px;margin-top:35px}
+table{border-collapse:collapse;width:100%;font-size:13px}td,th{border:1px solid #ccd9dd;padding:9px;text-align:left}
+th{background:#eaf4f4}tr:nth-child(even){background:#f6f8fa}img{max-width:100%}a{color:#076a90}
+code{font-size:12px;overflow-wrap:anywhere}@media print{body{margin:0;font-size:11px}h2{break-after:avoid}img,table{break-inside:avoid}}</style><body><h1>Informe de rendimiento: clasificación de moléculas frente a MMP-9</h1>
+<h2>Objetivo y resultado principal</h2>
+<p>Se clasificaron moléculas frente a MMP-9 humana (ChEMBL CHEMBL321, UniProt P14780) como activas o inactivas. Se ejecutaron 600 evaluaciones externas: dos representaciones, tres modelos y 100 repeticiones por combinación. Dentro de XGBoost, PaDEL obtuvo el mayor F1 medio (95.88%). El mayor F1 observado entre las seis combinaciones correspondió a RandomForest con PaDEL (96.05%). Esta comparación es descriptiva, no una demostración de superioridad estadística ni una validación experimental de nuevos inhibidores.</p>
+<h2>Datos y curación — data.py [1]</h2>
+<p>Fuente: ChEMBL_37, descarga UTC 2026-09-22T23:43:13.743112+00:00. Se descargaron 3967 registros IC50. Se conservaron mediciones exactas (=), en nM, positivas y finitas, sin alertas de validez ni duplicados potenciales, de ensayos de unión (B) con confianza de asignación 9. Los filtros se aplicaron secuencialmente; un registro descartado se cuenta solo en su primer motivo.</p>
+<table>
+<thead>
+<tr>
+<th>Motivo (orden secuencial)</th>
+<th>Registros</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>non_exact_relation</td>
+<td>1500</td>
+</tr>
+<tr>
+<td>assay_not_direct_binding_confidence9</td>
+<td>1026</td>
+</tr>
+<tr>
+<td>potential_duplicate</td>
+<td>224</td>
+</tr>
+<tr>
+<td>validity_flag</td>
+<td>47</td>
+</tr>
+<tr>
+<td>units_not_nM</td>
+<td>5</td>
+</tr>
+<tr>
+<td>invalid_IC50</td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+<p>Quedaron 1164 mediciones elegibles. Se normalizó el fragmento padre y se agruparon estructuras canónicas, conservando estereoquímica; se tomó la mediana de IC50 por estructura. Se excluyeron 1 molécula(s) con mediciones tanto activas como inactivas. El conjunto curado contiene 1113 moléculas: 719 activas (IC50 ≤ 1000 nM), 194 inactivas (IC50 ≥ 10000 nM) y 200 intermedias. Las intermedias no se entrenaron ni evaluaron. Se usaron 913 moléculas en ambas representaciones. Los identificadores, mediciones y exclusiones se conservan en data/raw y data/processed.</p>
+<p><img alt="Datos" src="figures/datos.png" /></p>
+<h2>Representaciones — features.py [2] y experiment.py [3]</h2>
+<p>SMILES: TF-IDF de n-gramas de caracteres de longitud 2 a 4, respetando mayúsculas, frecuencia mínima de dos moléculas y máximo 2048 características. Vocabulario y ponderaciones se ajustan solo con entrenamiento. Es una representación textual; los n-gramas no equivalen necesariamente a subestructuras químicas.</p>
+<p>PaDEL: 1444 descriptores 1D/2D calculados con PaDEL-Descriptor real, sin huellas ni descriptores 3D. Fracción de entradas ausentes: 0.0038%. Se imputan medianas, se eliminan características constantes y se estandarizan valores únicamente con entrenamiento. Las columnas completamente ausentes en entrenamiento se rellenan con cero y se eliminan por varianza. La alineación se comprueba por identificador molecular. IC50, pIC50, clase e identificadores no se incluyen como entradas.</p>
+<h2>Diseño experimental e hiperparámetros — experiment.py [3]</h2>
+<p>Semillas 0–99. En cada repetición: partición externa estratificada 80/20, con 730 moléculas de entrenamiento y 183 de prueba. Dentro del 80% se separa 75/25 para ajustar dos candidatos y seleccionar el de mayor F1 de validación (empates: primer candidato). Después se reajustan preprocesamiento y modelo elegido sobre todo el 80% y se evalúa una vez sobre el 20%. Se reutilizan las mismas particiones entre representaciones y modelos. La selección interna usa una partición de validación, no validación cruzada de múltiples pliegues.</p>
+<p>LogisticRegression: candidato 0: <code>{"C": 0.1}</code>; candidato 1: <code>{"C": 1.0}</code></p>
+<p>RandomForest: candidato 0: <code>{"n_estimators": 100, "max_depth": 12, "min_samples_leaf": 2}</code>; candidato 1: <code>{"n_estimators": 150, "max_depth": null, "min_samples_leaf": 1}</code></p>
+<p>XGBoost: candidato 0: <code>{"n_estimators": 100, "max_depth": 3, "learning_rate": 0.1}</code>; candidato 1: <code>{"n_estimators": 150, "max_depth": 5, "learning_rate": 0.05}</code></p>
+<p>Regresión logística: solver liblinear y pesos balanceados. Random Forest: pesos balanceados. XGBoost: hist, subsample=0.8, colsample_bytree=0.8, reg_lambda=1 y scale_pos_weight=n_inactivas/n_activas calculado solo en los datos de ajuste. Umbral de decisión fijo: 0.5. Se emplean ceros explícitos en la matriz TF-IDF para XGBoost. Los detalles y elecciones se guardan en manifest.json, tuning.csv y metrics.csv.</p>
+<table>
+<thead>
+<tr>
+<th>Representación</th>
+<th>Modelo</th>
+<th>Candidato</th>
+<th>Selecciones</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>PaDEL</td>
+<td>LogisticRegression</td>
+<td>0</td>
+<td>34</td>
+</tr>
+<tr>
+<td>PaDEL</td>
+<td>LogisticRegression</td>
+<td>1</td>
+<td>66</td>
+</tr>
+<tr>
+<td>PaDEL</td>
+<td>RandomForest</td>
+<td>0</td>
+<td>45</td>
+</tr>
+<tr>
+<td>PaDEL</td>
+<td>RandomForest</td>
+<td>1</td>
+<td>55</td>
+</tr>
+<tr>
+<td>PaDEL</td>
+<td>XGBoost</td>
+<td>0</td>
+<td>54</td>
+</tr>
+<tr>
+<td>PaDEL</td>
+<td>XGBoost</td>
+<td>1</td>
+<td>46</td>
+</tr>
+<tr>
+<td>SMILES</td>
+<td>LogisticRegression</td>
+<td>0</td>
+<td>4</td>
+</tr>
+<tr>
+<td>SMILES</td>
+<td>LogisticRegression</td>
+<td>1</td>
+<td>96</td>
+</tr>
+<tr>
+<td>SMILES</td>
+<td>RandomForest</td>
+<td>0</td>
+<td>30</td>
+</tr>
+<tr>
+<td>SMILES</td>
+<td>RandomForest</td>
+<td>1</td>
+<td>70</td>
+</tr>
+<tr>
+<td>SMILES</td>
+<td>XGBoost</td>
+<td>0</td>
+<td>43</td>
+</tr>
+<tr>
+<td>SMILES</td>
+<td>XGBoost</td>
+<td>1</td>
+<td>57</td>
+</tr>
+</tbody>
+</table>
+<h2>Métricas y rendimiento</h2>
+<p>La clase positiva es activa (1); inactiva es 0. Accuracy=(TP+TN)/N; F1=2TP/(2TP+FP+FN); sensibilidad=TP/(TP+FN); especificidad=TN/(TN+FP). La media y desviación estándar muestral (ddof=1) se calculan sobre las métricas de cada repetición; no a partir de una matriz de confusión global. Los valores siguientes son porcentajes (DE en puntos porcentuales).</p>
+<table>
+<thead>
+<tr>
+<th>Representación</th>
+<th>Modelo</th>
+<th>Accuracy (%)</th>
+<th>F1-score (%)</th>
+<th>Sensibilidad (%)</th>
+<th>Especificidad (%)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>PaDEL</td>
+<td>LogisticRegression</td>
+<td>91.75 ± 2.01</td>
+<td>94.69 ± 1.33</td>
+<td>93.73 ± 2.30</td>
+<td>84.44 ± 5.82</td>
+</tr>
+<tr>
+<td>PaDEL</td>
+<td>RandomForest</td>
+<td>93.72 ± 1.68</td>
+<td>96.05 ± 1.06</td>
+<td>96.91 ± 1.41</td>
+<td>81.95 ± 5.82</td>
+</tr>
+<tr>
+<td>PaDEL</td>
+<td>XGBoost</td>
+<td>93.46 ± 1.50</td>
+<td>95.88 ± 0.94</td>
+<td>96.67 ± 1.30</td>
+<td>81.62 ± 6.04</td>
+</tr>
+<tr>
+<td>SMILES</td>
+<td>LogisticRegression</td>
+<td>88.83 ± 2.07</td>
+<td>92.76 ± 1.37</td>
+<td>90.99 ± 2.18</td>
+<td>80.85 ± 6.22</td>
+</tr>
+<tr>
+<td>SMILES</td>
+<td>RandomForest</td>
+<td>92.99 ± 1.84</td>
+<td>95.59 ± 1.16</td>
+<td>96.39 ± 1.53</td>
+<td>80.46 ± 6.13</td>
+</tr>
+<tr>
+<td>SMILES</td>
+<td>XGBoost</td>
+<td>92.19 ± 1.94</td>
+<td>95.04 ± 1.24</td>
+<td>95.06 ± 1.83</td>
+<td>81.62 ± 6.17</td>
+</tr>
+</tbody>
+</table>
+<p><img alt="Rendimiento" src="figures/rendimiento.png" /></p>
+<p><img alt="Matrices XGBoost" src="figures/xgboost_confusion.png" /></p>
+<p>Las matrices muestran conteos medios por repetición; por ello contienen decimales. Una molécula puede aparecer en prueba en varias repeticiones.</p>
+<h2>Interpretación y limitaciones</h2>
+<p>La referencia que siempre predice la clase mayoritaria obtuvo accuracy=78.69%, F1=88.07%, sensibilidad=100.00% y especificidad=0.00%. El desbalance exige interpretar las cuatro métricas juntas. Para XGBoost con PaDEL, la sensibilidad media fue 96.67% y la especificidad 81.62%.</p>
+<p>Las particiones aleatorias pueden compartir familias químicas entre entrenamiento y prueba. No se ha realizado validación externa, temporal ni separación por esqueletos moleculares: el rendimiento puede ser optimista para familias nuevas. Las 100 repeticiones se solapan, no son 100 muestras independientes; la DE representa variabilidad entre particiones y no un intervalo de confianza. La heterogeneidad de los ensayos persiste incluso tras filtrar calidad. Excluir valores censurados e intermedios limita el dominio evaluado. La búsqueda de hiperparámetros es pequeña y no garantiza el óptimo. Los modelos guardados corresponden a la semilla 0, sin seleccionarla por rendimiento; son artefactos reproducibles del experimento, no modelos clínicamente validados. El informe IEEE se preparará posteriormente.</p>
+<h2>Archivos Python citados y evidencia</h2>
+<p>[1] <a href="../mmp9/data.py">mmp9/data.py</a>: descarga, verificación de objetivo, filtros, agregación y etiquetas.</p>
+<p>[2] <a href="../mmp9/features.py">mmp9/features.py</a>: cálculo PaDEL por lotes y verificación de alineación.</p>
+<p>[3] <a href="../mmp9/experiment.py">mmp9/experiment.py</a>: particiones, candidatos, entrenamiento, métricas y modelos.</p>
+<p>[4] <a href="../mmp9/report.py">mmp9/report.py</a>: este informe y sus figuras; EDA de Lipinski.</p>
+<p>[5] <a href="../tests/test_pipeline.py">tests/test_pipeline.py</a>: pruebas de umbrales, métricas, particiones y preprocesamiento.</p>
+<p>[6] <a href="../mmp9/verify.py">mmp9/verify.py</a>: auditoría de métricas contra predicciones, separación e integridad.</p>
+<p>Resultados: <a href="../results/main/metrics.csv">métricas individuales</a>, <a href="../results/main/summary.csv">resumen</a>, <a href="../results/main/tuning.csv">hiperparámetros</a>, <a href="../results/main/manifest.json">configuración y versiones</a>.</p>
+<p>El archivo docente original se conserva sin alteraciones en la raíz y no se ejecuta en el flujo nuevo.</p>
+<h2>Fuentes de datos y documentación</h2>
+<p><a href="https://www.ebi.ac.uk/chembl/api/data/target/CHEMBL321.json">ChEMBL: objetivo MMP-9</a>, <a href="https://chembl.gitbook.io/chembl-interface-documentation/web-services/chembl-data-web-services">servicios web ChEMBL</a>. Datos atribuidos a EMBL-EBI ChEMBL, CC BY-SA 3.0.</p>
+<p><a href="https://xgboost.readthedocs.io/en/stable/python/python_api.html">XGBoost: API Python</a>, <a href="https://github.com/ecrl/padelpy">PaDELPy</a>, <a href="https://www.rdkit.org/docs/Cookbook.html">RDKit</a>, <a href="https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.TfidfVectorizer.html">TF-IDF</a>, <a href="https://scikit-learn.org/stable/modules/generated/sklearn.metrics.confusion_matrix.html">matriz de confusión</a>.</p></body></html>

@@ -1,0 +1,23 @@
+{
+  "downloaded_utc": "2026-09-22T23:43:13.743112+00:00",
+  "api": "https://www.ebi.ac.uk/chembl/api/data/",
+  "target": "CHEMBL321",
+  "queries": {
+    "activity": {
+      "target_chembl_id": "CHEMBL321",
+      "standard_type": "IC50",
+      "limit": 1000
+    },
+    "assay": {
+      "target_chembl_id": "CHEMBL321",
+      "limit": 1000
+    }
+  },
+  "sha256": {
+    "activity.json": "aaab2fe9fe7caa38eaee513a7891a15cfa892b29c74e2eb8c7ee1ac2d2685422",
+    "assay.json": "9b6167e6df49696b4c4b4e3016f761024a5381f5bd558122ef48def67be9c116",
+    "chembl_status.json": "87fe51f4a517284a3c9734330e2756b12b418bb1aa90984ab9a4b8fc9b9e802d",
+    "target.json": "9e764e73b6ffa40224a4b1d5c9721bcd2513060b78848379f76a93b0c37a2611"
+  },
+  "source_license": "ChEMBL data: CC BY-SA 3.0; retain attribution to EMBL-EBI ChEMBL."
+}

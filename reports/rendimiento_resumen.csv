@@ -1,0 +1,7 @@
+Representación,Modelo,Accuracy (%),F1-score (%),Sensibilidad (%),Especificidad (%)
+PaDEL,LogisticRegression,91.75 ± 2.01,94.69 ± 1.33,93.73 ± 2.30,84.44 ± 5.82
+PaDEL,RandomForest,93.72 ± 1.68,96.05 ± 1.06,96.91 ± 1.41,81.95 ± 5.82
+PaDEL,XGBoost,93.46 ± 1.50,95.88 ± 0.94,96.67 ± 1.30,81.62 ± 6.04
+SMILES,LogisticRegression,88.83 ± 2.07,92.76 ± 1.37,90.99 ± 2.18,80.85 ± 6.22
+SMILES,RandomForest,92.99 ± 1.84,95.59 ± 1.16,96.39 ± 1.53,80.46 ± 6.13
+SMILES,XGBoost,92.19 ± 1.94,95.04 ± 1.24,95.06 ± 1.83,81.62 ± 6.17

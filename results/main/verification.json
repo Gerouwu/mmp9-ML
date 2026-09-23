@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "evaluations": 600,
+  "prediction_rows": 109800,
+  "seeds": 100,
+  "checks": [
+    "input_hashes",
+    "split_disjointness",
+    "split_reproduction",
+    "labels",
+    "threshold",
+    "confusion_counts",
+    "all_metrics",
+    "sample_standard_deviation",
+    "hyperparameter_selection",
+    "baseline",
+    "model_reloading"
+  ]
+}

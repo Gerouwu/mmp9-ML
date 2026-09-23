@@ -1,0 +1,14 @@
+# Mantener hashes de datos y resultados idénticos al clonarlos en otro sistema.
+.gitattributes text eol=lf
+.gitignore text eol=lf
+*.py text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+*.json -text
+*.csv -text
+*.gz -text
+*.joblib -text
+*.ubj -text
+*.png -text
+*.jpeg -text
+mib_introduction_drug_discovery_through_ml.py -text

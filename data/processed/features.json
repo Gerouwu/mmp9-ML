@@ -1,0 +1,15 @@
+{
+  "representation": "PaDEL 1D/2D",
+  "n_molecules": 913,
+  "n_descriptors": 1444,
+  "input_sha256": "75959656348b85468f7aa85f16c2d167dd93633d31eb3b0ed38327de2a782e44",
+  "missing_fraction": 3.7925562739499923e-05,
+  "molecules_with_missing": 34,
+  "settings": {
+    "d_2d": true,
+    "d_3d": false,
+    "fingerprints": false,
+    "maxruntime_ms": 30000,
+    "threads": 4
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "raw_activities": 3967,
+  "excluded_by_reason": {
+    "non_exact_relation": 1500,
+    "assay_not_direct_binding_confidence9": 1026,
+    "potential_duplicate": 224,
+    "validity_flag": 47,
+    "units_not_nM": 5,
+    "invalid_IC50": 1
+  },
+  "invalid_smiles": 0,
+  "eligible_measurements": 1164,
+  "conflicting_molecules": 1,
+  "curated_molecules": 1113,
+  "binary_molecules": 913,
+  "class_counts": {
+    "active": 719,
+    "intermediate": 200,
+    "inactive": 194
+  }
+}

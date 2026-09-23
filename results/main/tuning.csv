@@ -1,0 +1,1201 @@
+seed,representation,model,candidate,params,validation_f1
+0,PaDEL,LogisticRegression,0,{'C': 0.1},0.9323843416370107
+0,PaDEL,LogisticRegression,1,{'C': 1.0},0.9399293286219081
+0,PaDEL,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9399293286219081
+0,PaDEL,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9480968858131488
+0,PaDEL,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9473684210526315
+0,PaDEL,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9513888888888888
+0,SMILES,LogisticRegression,0,{'C': 0.1},0.9057971014492754
+0,SMILES,LogisticRegression,1,{'C': 1.0},0.9252669039145908
+0,SMILES,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9477351916376306
+0,SMILES,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9513888888888888
+0,SMILES,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9407665505226481
+0,SMILES,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9477351916376306
+1,PaDEL,LogisticRegression,0,{'C': 0.1},0.8975265017667845
+1,PaDEL,LogisticRegression,1,{'C': 1.0},0.900709219858156
+1,PaDEL,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9347079037800687
+1,PaDEL,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9379310344827586
+1,PaDEL,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9383561643835616
+1,PaDEL,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9452054794520548
+1,SMILES,LogisticRegression,0,{'C': 0.1},0.8664259927797834
+1,SMILES,LogisticRegression,1,{'C': 1.0},0.9128919860627178
+1,SMILES,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9342560553633218
+1,SMILES,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9452054794520548
+1,SMILES,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9198606271777003
+1,SMILES,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9230769230769231
+2,PaDEL,LogisticRegression,0,{'C': 0.1},0.9252669039145908
+2,PaDEL,LogisticRegression,1,{'C': 1.0},0.9407665505226481
+2,PaDEL,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9347079037800687
+2,PaDEL,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9342560553633218
+2,PaDEL,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9347079037800687
+2,PaDEL,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9310344827586207
+2,SMILES,LogisticRegression,0,{'C': 0.1},0.8484848484848485
+2,SMILES,LogisticRegression,1,{'C': 1.0},0.9018181818181819
+2,SMILES,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9263157894736842
+2,SMILES,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9337979094076655
+2,SMILES,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9290780141843972
+2,SMILES,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9198606271777003
+3,PaDEL,LogisticRegression,0,{'C': 0.1},0.9333333333333333
+3,PaDEL,LogisticRegression,1,{'C': 1.0},0.9333333333333333
+3,PaDEL,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9629629629629629
+3,PaDEL,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9629629629629629
+3,PaDEL,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9690721649484536
+3,PaDEL,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9690721649484536
+3,SMILES,LogisticRegression,0,{'C': 0.1},0.8592592592592593
+3,SMILES,LogisticRegression,1,{'C': 1.0},0.9257950530035336
+3,SMILES,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9452054794520548
+3,SMILES,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9452054794520548
+3,SMILES,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9263157894736842
+3,SMILES,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9225352112676056
+4,PaDEL,LogisticRegression,0,{'C': 0.1},0.9403508771929825
+4,PaDEL,LogisticRegression,1,{'C': 1.0},0.9370629370629371
+4,PaDEL,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9556313993174061
+4,PaDEL,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9480968858131488
+4,PaDEL,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9550173010380623
+4,PaDEL,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.952054794520548
+4,SMILES,LogisticRegression,0,{'C': 0.1},0.8823529411764706
+4,SMILES,LogisticRegression,1,{'C': 1.0},0.9290780141843972
+4,SMILES,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9415807560137457
+4,SMILES,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9452054794520548
+4,SMILES,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9342560553633218
+4,SMILES,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9379310344827586
+5,PaDEL,LogisticRegression,0,{'C': 0.1},0.9436619718309859
+5,PaDEL,LogisticRegression,1,{'C': 1.0},0.9477351916376306
+5,PaDEL,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9794520547945206
+5,PaDEL,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9794520547945206
+5,PaDEL,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9619377162629758
+5,PaDEL,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9759450171821306
+5,SMILES,LogisticRegression,0,{'C': 0.1},0.9110320284697508
+5,SMILES,LogisticRegression,1,{'C': 1.0},0.9403508771929825
+5,SMILES,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9759450171821306
+5,SMILES,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9761092150170648
+5,SMILES,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9652777777777778
+5,SMILES,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9724137931034482
+6,PaDEL,LogisticRegression,0,{'C': 0.1},0.9550173010380623
+6,PaDEL,LogisticRegression,1,{'C': 1.0},0.9375
+6,PaDEL,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9553264604810997
+6,PaDEL,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.952054794520548
+6,PaDEL,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9488054607508533
+6,PaDEL,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.952054794520548
+6,SMILES,LogisticRegression,0,{'C': 0.1},0.8943661971830986
+6,SMILES,LogisticRegression,1,{'C': 1.0},0.9071428571428571
+6,SMILES,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9452054794520548
+6,SMILES,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9488054607508533
+6,SMILES,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9488054607508533
+6,SMILES,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.952054794520548
+7,PaDEL,LogisticRegression,0,{'C': 0.1},0.9379310344827586
+7,PaDEL,LogisticRegression,1,{'C': 1.0},0.9419795221843004
+7,PaDEL,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9523809523809523
+7,PaDEL,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9488054607508533
+7,PaDEL,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9375
+7,PaDEL,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9517241379310345
+7,SMILES,LogisticRegression,0,{'C': 0.1},0.8759124087591241
+7,SMILES,LogisticRegression,1,{'C': 1.0},0.9071428571428571
+7,SMILES,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9347079037800687
+7,SMILES,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9347079037800687
+7,SMILES,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9355932203389831
+7,SMILES,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9355932203389831
+8,PaDEL,LogisticRegression,0,{'C': 0.1},0.9473684210526315
+8,PaDEL,LogisticRegression,1,{'C': 1.0},0.958904109589041
+8,PaDEL,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9591836734693877
+8,PaDEL,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9662162162162162
+8,PaDEL,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9629629629629629
+8,PaDEL,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9594594594594594
+8,SMILES,LogisticRegression,0,{'C': 0.1},0.8953068592057761
+8,SMILES,LogisticRegression,1,{'C': 1.0},0.9366197183098591
+8,SMILES,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9553264604810997
+8,SMILES,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.962457337883959
+8,SMILES,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9692832764505119
+8,SMILES,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.962457337883959
+9,PaDEL,LogisticRegression,0,{'C': 0.1},0.9390681003584229
+9,PaDEL,LogisticRegression,1,{'C': 1.0},0.9428571428571428
+9,PaDEL,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9688581314878892
+9,PaDEL,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9724137931034482
+9,PaDEL,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9688581314878892
+9,PaDEL,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9688581314878892
+9,SMILES,LogisticRegression,0,{'C': 0.1},0.8796992481203008
+9,SMILES,LogisticRegression,1,{'C': 1.0},0.927536231884058
+9,SMILES,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.958041958041958
+9,SMILES,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9619377162629758
+9,SMILES,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9692832764505119
+9,SMILES,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9690721649484536
+10,PaDEL,LogisticRegression,0,{'C': 0.1},0.9473684210526315
+10,PaDEL,LogisticRegression,1,{'C': 1.0},0.9547038327526133
+10,PaDEL,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9423728813559322
+10,PaDEL,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9491525423728814
+10,PaDEL,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9448275862068966
+10,PaDEL,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9383561643835616
+10,SMILES,LogisticRegression,0,{'C': 0.1},0.9192982456140351
+10,SMILES,LogisticRegression,1,{'C': 1.0},0.9415807560137457
+10,SMILES,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.952054794520548
+10,SMILES,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9523809523809523
+10,SMILES,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9484536082474226
+10,SMILES,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9491525423728814
+11,PaDEL,LogisticRegression,0,{'C': 0.1},0.9399293286219081
+11,PaDEL,LogisticRegression,1,{'C': 1.0},0.9477351916376306
+11,PaDEL,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9594594594594594
+11,PaDEL,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.962457337883959
+11,PaDEL,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9591836734693877
+11,PaDEL,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9594594594594594
+11,SMILES,LogisticRegression,0,{'C': 0.1},0.9039145907473309
+11,SMILES,LogisticRegression,1,{'C': 1.0},0.9484536082474226
+11,SMILES,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9488054607508533
+11,SMILES,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.952054794520548
+11,SMILES,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.952054794520548
+11,SMILES,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.952054794520548
+12,PaDEL,LogisticRegression,0,{'C': 0.1},0.9399293286219081
+12,PaDEL,LogisticRegression,1,{'C': 1.0},0.9370629370629371
+12,PaDEL,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9498327759197325
+12,PaDEL,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9533333333333334
+12,PaDEL,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.962457337883959
+12,PaDEL,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9559322033898305
+12,SMILES,LogisticRegression,0,{'C': 0.1},0.8239700374531835
+12,SMILES,LogisticRegression,1,{'C': 1.0},0.8943661971830986
+12,SMILES,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9328859060402684
+12,SMILES,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9364548494983278
+12,SMILES,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9328621908127208
+12,SMILES,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9273356401384083
+13,PaDEL,LogisticRegression,0,{'C': 0.1},0.9328621908127208
+13,PaDEL,LogisticRegression,1,{'C': 1.0},0.9263157894736842
+13,PaDEL,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9246575342465754
+13,PaDEL,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9391891891891891
+13,PaDEL,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9347079037800687
+13,PaDEL,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9319727891156463
+13,SMILES,LogisticRegression,0,{'C': 0.1},0.9154929577464789
+13,SMILES,LogisticRegression,1,{'C': 1.0},0.9084507042253521
+13,SMILES,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9209621993127147
+13,SMILES,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9355932203389831
+13,SMILES,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9236111111111112
+13,SMILES,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9236111111111112
+14,PaDEL,LogisticRegression,0,{'C': 0.1},0.9517241379310345
+14,PaDEL,LogisticRegression,1,{'C': 1.0},0.9586206896551724
+14,PaDEL,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9523809523809523
+14,PaDEL,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.958904109589041
+14,PaDEL,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9556313993174061
+14,PaDEL,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9556313993174061
+14,SMILES,LogisticRegression,0,{'C': 0.1},0.9263157894736842
+14,SMILES,LogisticRegression,1,{'C': 1.0},0.9513888888888888
+14,SMILES,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9629629629629629
+14,SMILES,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9629629629629629
+14,SMILES,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9488054607508533
+14,SMILES,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9594594594594594
+15,PaDEL,LogisticRegression,0,{'C': 0.1},0.9323843416370107
+15,PaDEL,LogisticRegression,1,{'C': 1.0},0.9263157894736842
+15,PaDEL,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9328621908127208
+15,PaDEL,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9366197183098591
+15,PaDEL,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.951048951048951
+15,PaDEL,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.951048951048951
+15,SMILES,LogisticRegression,0,{'C': 0.1},0.851985559566787
+15,SMILES,LogisticRegression,1,{'C': 1.0},0.9124087591240876
+15,SMILES,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9175627240143369
+15,SMILES,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9219858156028369
+15,SMILES,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9181494661921709
+15,SMILES,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9078014184397163
+16,PaDEL,LogisticRegression,0,{'C': 0.1},0.9032258064516129
+16,PaDEL,LogisticRegression,1,{'C': 1.0},0.9084507042253521
+16,PaDEL,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9347079037800687
+16,PaDEL,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9448275862068966
+16,PaDEL,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9342560553633218
+16,PaDEL,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9342560553633218
+16,SMILES,LogisticRegression,0,{'C': 0.1},0.8539325842696629
+16,SMILES,LogisticRegression,1,{'C': 1.0},0.9064748201438849
+16,SMILES,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9333333333333333
+16,SMILES,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9440559440559441
+16,SMILES,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9295774647887324
+16,SMILES,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9448275862068966
+17,PaDEL,LogisticRegression,0,{'C': 0.1},0.9540636042402827
+17,PaDEL,LogisticRegression,1,{'C': 1.0},0.9540636042402827
+17,PaDEL,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9621993127147767
+17,PaDEL,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9655172413793104
+17,PaDEL,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9616724738675958
+17,PaDEL,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9583333333333334
+17,SMILES,LogisticRegression,0,{'C': 0.1},0.9142857142857143
+17,SMILES,LogisticRegression,1,{'C': 1.0},0.9252669039145908
+17,SMILES,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9444444444444444
+17,SMILES,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9517241379310345
+17,SMILES,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9257950530035336
+17,SMILES,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9403508771929825
+18,PaDEL,LogisticRegression,0,{'C': 0.1},0.9477351916376306
+18,PaDEL,LogisticRegression,1,{'C': 1.0},0.9550173010380623
+18,PaDEL,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9415807560137457
+18,PaDEL,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.952054794520548
+18,PaDEL,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9452054794520548
+18,PaDEL,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9452054794520548
+18,SMILES,LogisticRegression,0,{'C': 0.1},0.8676470588235294
+18,SMILES,LogisticRegression,1,{'C': 1.0},0.9263157894736842
+18,SMILES,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9419795221843004
+18,SMILES,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9494949494949495
+18,SMILES,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9383561643835616
+18,SMILES,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9387755102040817
+19,PaDEL,LogisticRegression,0,{'C': 0.1},0.958041958041958
+19,PaDEL,LogisticRegression,1,{'C': 1.0},0.9517241379310345
+19,PaDEL,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9619377162629758
+19,PaDEL,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9759450171821306
+19,PaDEL,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9652777777777778
+19,PaDEL,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9513888888888888
+19,SMILES,LogisticRegression,0,{'C': 0.1},0.8773234200743495
+19,SMILES,LogisticRegression,1,{'C': 1.0},0.9407665505226481
+19,SMILES,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9550173010380623
+19,SMILES,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9513888888888888
+19,SMILES,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9379310344827586
+19,SMILES,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9444444444444444
+20,PaDEL,LogisticRegression,0,{'C': 0.1},0.9407665505226481
+20,PaDEL,LogisticRegression,1,{'C': 1.0},0.9383561643835616
+20,PaDEL,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9488054607508533
+20,PaDEL,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9488054607508533
+20,PaDEL,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9419795221843004
+20,PaDEL,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9491525423728814
+20,SMILES,LogisticRegression,0,{'C': 0.1},0.9236111111111112
+20,SMILES,LogisticRegression,1,{'C': 1.0},0.9375
+20,SMILES,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9517241379310345
+20,SMILES,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.952054794520548
+20,SMILES,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9448275862068966
+20,SMILES,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9452054794520548
+21,PaDEL,LogisticRegression,0,{'C': 0.1},0.9366197183098591
+21,PaDEL,LogisticRegression,1,{'C': 1.0},0.9375
+21,PaDEL,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9556313993174061
+21,PaDEL,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9517241379310345
+21,PaDEL,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9591836734693877
+21,PaDEL,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.962457337883959
+21,SMILES,LogisticRegression,0,{'C': 0.1},0.8872727272727273
+21,SMILES,LogisticRegression,1,{'C': 1.0},0.9252669039145908
+21,SMILES,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9370629370629371
+21,SMILES,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9477351916376306
+21,SMILES,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9517241379310345
+21,SMILES,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9444444444444444
+22,PaDEL,LogisticRegression,0,{'C': 0.1},0.9540636042402827
+22,PaDEL,LogisticRegression,1,{'C': 1.0},0.950354609929078
+22,PaDEL,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9616724738675958
+22,PaDEL,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9583333333333334
+22,PaDEL,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9543859649122807
+22,PaDEL,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9513888888888888
+22,SMILES,LogisticRegression,0,{'C': 0.1},0.8872727272727273
+22,SMILES,LogisticRegression,1,{'C': 1.0},0.8992805755395683
+22,SMILES,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9473684210526315
+22,SMILES,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9550173010380623
+22,SMILES,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9361702127659575
+22,SMILES,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9399293286219081
+23,PaDEL,LogisticRegression,0,{'C': 0.1},0.9219858156028369
+23,PaDEL,LogisticRegression,1,{'C': 1.0},0.9295774647887324
+23,PaDEL,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9379310344827586
+23,PaDEL,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9375
+23,PaDEL,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9480968858131488
+23,PaDEL,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9517241379310345
+23,SMILES,LogisticRegression,0,{'C': 0.1},0.8518518518518519
+23,SMILES,LogisticRegression,1,{'C': 1.0},0.926829268292683
+23,SMILES,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9351535836177475
+23,SMILES,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9655172413793104
+23,SMILES,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9379310344827586
+23,SMILES,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9347079037800687
+24,PaDEL,LogisticRegression,0,{'C': 0.1},0.924187725631769
+24,PaDEL,LogisticRegression,1,{'C': 1.0},0.9280575539568345
+24,PaDEL,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9484536082474226
+24,PaDEL,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9556313993174061
+24,PaDEL,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9419795221843004
+24,PaDEL,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9419795221843004
+24,SMILES,LogisticRegression,0,{'C': 0.1},0.8717948717948718
+24,SMILES,LogisticRegression,1,{'C': 1.0},0.9187279151943463
+24,SMILES,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9347079037800687
+24,SMILES,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9455782312925171
+24,SMILES,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9315068493150684
+24,SMILES,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9283276450511946
+25,PaDEL,LogisticRegression,0,{'C': 0.1},0.9290780141843972
+25,PaDEL,LogisticRegression,1,{'C': 1.0},0.9333333333333333
+25,PaDEL,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9494949494949495
+25,PaDEL,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9530201342281879
+25,PaDEL,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9562289562289562
+25,PaDEL,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9565217391304348
+25,SMILES,LogisticRegression,0,{'C': 0.1},0.8666666666666667
+25,SMILES,LogisticRegression,1,{'C': 1.0},0.9064748201438849
+25,SMILES,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9295774647887324
+25,SMILES,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9444444444444444
+25,SMILES,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9187279151943463
+25,SMILES,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9225352112676056
+26,PaDEL,LogisticRegression,0,{'C': 0.1},0.9263157894736842
+26,PaDEL,LogisticRegression,1,{'C': 1.0},0.9337979094076655
+26,PaDEL,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9375
+26,PaDEL,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9480968858131488
+26,PaDEL,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9556313993174061
+26,PaDEL,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.952054794520548
+26,SMILES,LogisticRegression,0,{'C': 0.1},0.8768115942028986
+26,SMILES,LogisticRegression,1,{'C': 1.0},0.8937728937728938
+26,SMILES,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9452054794520548
+26,SMILES,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9452054794520548
+26,SMILES,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9411764705882353
+26,SMILES,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9415807560137457
+27,PaDEL,LogisticRegression,0,{'C': 0.1},0.9415807560137457
+27,PaDEL,LogisticRegression,1,{'C': 1.0},0.9411764705882353
+27,PaDEL,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9459459459459459
+27,PaDEL,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9523809523809523
+27,PaDEL,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9559322033898305
+27,PaDEL,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9527027027027027
+27,SMILES,LogisticRegression,0,{'C': 0.1},0.8848920863309353
+27,SMILES,LogisticRegression,1,{'C': 1.0},0.9375
+27,SMILES,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9488054607508533
+27,SMILES,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9491525423728814
+27,SMILES,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9415807560137457
+27,SMILES,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9484536082474226
+28,PaDEL,LogisticRegression,0,{'C': 0.1},0.9477351916376306
+28,PaDEL,LogisticRegression,1,{'C': 1.0},0.9444444444444444
+28,PaDEL,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9523809523809523
+28,PaDEL,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9556313993174061
+28,PaDEL,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9379310344827586
+28,PaDEL,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9423728813559322
+28,SMILES,LogisticRegression,0,{'C': 0.1},0.8989547038327527
+28,SMILES,LogisticRegression,1,{'C': 1.0},0.9166666666666666
+28,SMILES,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9427609427609428
+28,SMILES,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9423728813559322
+28,SMILES,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9387755102040817
+28,SMILES,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9423728813559322
+29,PaDEL,LogisticRegression,0,{'C': 0.1},0.9458483754512635
+29,PaDEL,LogisticRegression,1,{'C': 1.0},0.9574468085106383
+29,PaDEL,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9681978798586572
+29,PaDEL,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.971830985915493
+29,PaDEL,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9611307420494699
+29,PaDEL,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9652777777777778
+29,SMILES,LogisticRegression,0,{'C': 0.1},0.9044117647058824
+29,SMILES,LogisticRegression,1,{'C': 1.0},0.9390681003584229
+29,SMILES,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9571428571428572
+29,SMILES,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9681978798586572
+29,SMILES,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9507042253521126
+29,SMILES,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9647887323943662
+30,PaDEL,LogisticRegression,0,{'C': 0.1},0.9577464788732394
+30,PaDEL,LogisticRegression,1,{'C': 1.0},0.9614035087719298
+30,PaDEL,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.962457337883959
+30,PaDEL,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9556313993174061
+30,PaDEL,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9724137931034482
+30,PaDEL,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.962457337883959
+30,SMILES,LogisticRegression,0,{'C': 0.1},0.9187279151943463
+30,SMILES,LogisticRegression,1,{'C': 1.0},0.9480968858131488
+30,SMILES,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9556313993174061
+30,SMILES,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9591836734693877
+30,SMILES,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9484536082474226
+30,SMILES,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.958904109589041
+31,PaDEL,LogisticRegression,0,{'C': 0.1},0.9355932203389831
+31,PaDEL,LogisticRegression,1,{'C': 1.0},0.9383561643835616
+31,PaDEL,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9351535836177475
+31,PaDEL,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9387755102040817
+31,PaDEL,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9455782312925171
+31,PaDEL,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9491525423728814
+31,SMILES,LogisticRegression,0,{'C': 0.1},0.8467153284671532
+31,SMILES,LogisticRegression,1,{'C': 1.0},0.8912280701754386
+31,SMILES,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9134948096885813
+31,SMILES,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9209621993127147
+31,SMILES,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9027777777777778
+31,SMILES,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9027777777777778
+32,PaDEL,LogisticRegression,0,{'C': 0.1},0.958041958041958
+32,PaDEL,LogisticRegression,1,{'C': 1.0},0.951048951048951
+32,PaDEL,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9517241379310345
+32,PaDEL,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9556313993174061
+32,PaDEL,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.962457337883959
+32,PaDEL,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.952054794520548
+32,SMILES,LogisticRegression,0,{'C': 0.1},0.9025270758122743
+32,SMILES,LogisticRegression,1,{'C': 1.0},0.9513888888888888
+32,SMILES,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9556313993174061
+32,SMILES,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9559322033898305
+32,SMILES,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9591836734693877
+32,SMILES,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9627118644067797
+33,PaDEL,LogisticRegression,0,{'C': 0.1},0.9236363636363636
+33,PaDEL,LogisticRegression,1,{'C': 1.0},0.9314079422382672
+33,PaDEL,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9616724738675958
+33,PaDEL,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9616724738675958
+33,PaDEL,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9513888888888888
+33,PaDEL,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9621993127147767
+33,SMILES,LogisticRegression,0,{'C': 0.1},0.9110320284697508
+33,SMILES,LogisticRegression,1,{'C': 1.0},0.9285714285714286
+33,SMILES,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9507042253521126
+33,SMILES,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.958041958041958
+33,SMILES,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9436619718309859
+33,SMILES,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9477351916376306
+34,PaDEL,LogisticRegression,0,{'C': 0.1},0.9452054794520548
+34,PaDEL,LogisticRegression,1,{'C': 1.0},0.9553264604810997
+34,PaDEL,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9527027027027027
+34,PaDEL,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9530201342281879
+34,PaDEL,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9594594594594594
+34,PaDEL,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9559322033898305
+34,SMILES,LogisticRegression,0,{'C': 0.1},0.9
+34,SMILES,LogisticRegression,1,{'C': 1.0},0.9154929577464789
+34,SMILES,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9427609427609428
+34,SMILES,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9395973154362416
+34,SMILES,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9391891891891891
+34,SMILES,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9463087248322147
+35,PaDEL,LogisticRegression,0,{'C': 0.1},0.9295774647887324
+35,PaDEL,LogisticRegression,1,{'C': 1.0},0.9295774647887324
+35,PaDEL,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9480968858131488
+35,PaDEL,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9484536082474226
+35,PaDEL,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9621993127147767
+35,PaDEL,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9556313993174061
+35,SMILES,LogisticRegression,0,{'C': 0.1},0.8782287822878229
+35,SMILES,LogisticRegression,1,{'C': 1.0},0.9395017793594306
+35,SMILES,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9375
+35,SMILES,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9415807560137457
+35,SMILES,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9375
+35,SMILES,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9411764705882353
+36,PaDEL,LogisticRegression,0,{'C': 0.1},0.9550173010380623
+36,PaDEL,LogisticRegression,1,{'C': 1.0},0.9621993127147767
+36,PaDEL,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9527027027027027
+36,PaDEL,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9494949494949495
+36,PaDEL,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9459459459459459
+36,PaDEL,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9594594594594594
+36,SMILES,LogisticRegression,0,{'C': 0.1},0.875
+36,SMILES,LogisticRegression,1,{'C': 1.0},0.9407665505226481
+36,SMILES,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9452054794520548
+36,SMILES,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9452054794520548
+36,SMILES,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9342560553633218
+36,SMILES,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9383561643835616
+37,PaDEL,LogisticRegression,0,{'C': 0.1},0.9399293286219081
+37,PaDEL,LogisticRegression,1,{'C': 1.0},0.9403508771929825
+37,PaDEL,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9690721649484536
+37,PaDEL,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.958904109589041
+37,PaDEL,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9448275862068966
+37,PaDEL,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9415807560137457
+37,SMILES,LogisticRegression,0,{'C': 0.1},0.8666666666666667
+37,SMILES,LogisticRegression,1,{'C': 1.0},0.9214285714285714
+37,SMILES,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9652777777777778
+37,SMILES,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9690721649484536
+37,SMILES,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9547038327526133
+37,SMILES,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9477351916376306
+38,PaDEL,LogisticRegression,0,{'C': 0.1},0.9583333333333334
+38,PaDEL,LogisticRegression,1,{'C': 1.0},0.9619377162629758
+38,PaDEL,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.952054794520548
+38,PaDEL,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9657534246575342
+38,PaDEL,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9594594594594594
+38,PaDEL,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9562289562289562
+38,SMILES,LogisticRegression,0,{'C': 0.1},0.88
+38,SMILES,LogisticRegression,1,{'C': 1.0},0.9323843416370107
+38,SMILES,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9480968858131488
+38,SMILES,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9517241379310345
+38,SMILES,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9507042253521126
+38,SMILES,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.951048951048951
+39,PaDEL,LogisticRegression,0,{'C': 0.1},0.9399293286219081
+39,PaDEL,LogisticRegression,1,{'C': 1.0},0.9473684210526315
+39,PaDEL,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9517241379310345
+39,PaDEL,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9583333333333334
+39,PaDEL,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9611307420494699
+39,PaDEL,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9614035087719298
+39,SMILES,LogisticRegression,0,{'C': 0.1},0.8985507246376812
+39,SMILES,LogisticRegression,1,{'C': 1.0},0.9290780141843972
+39,SMILES,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9686411149825784
+39,SMILES,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9621993127147767
+39,SMILES,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9484536082474226
+39,SMILES,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.952054794520548
+40,PaDEL,LogisticRegression,0,{'C': 0.1},0.9110320284697508
+40,PaDEL,LogisticRegression,1,{'C': 1.0},0.9328621908127208
+40,PaDEL,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9452054794520548
+40,PaDEL,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9488054607508533
+40,PaDEL,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9419795221843004
+40,PaDEL,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9383561643835616
+40,SMILES,LogisticRegression,0,{'C': 0.1},0.896797153024911
+40,SMILES,LogisticRegression,1,{'C': 1.0},0.9039145907473309
+40,SMILES,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9310344827586207
+40,SMILES,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9375
+40,SMILES,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9300699300699301
+40,SMILES,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9128919860627178
+41,PaDEL,LogisticRegression,0,{'C': 0.1},0.9436619718309859
+41,PaDEL,LogisticRegression,1,{'C': 1.0},0.9337979094076655
+41,PaDEL,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9452054794520548
+41,PaDEL,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9423728813559322
+41,PaDEL,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9423728813559322
+41,PaDEL,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9488054607508533
+41,SMILES,LogisticRegression,0,{'C': 0.1},0.9
+41,SMILES,LogisticRegression,1,{'C': 1.0},0.9480968858131488
+41,SMILES,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9480968858131488
+41,SMILES,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.962457337883959
+41,SMILES,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9484536082474226
+41,SMILES,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9364548494983278
+42,PaDEL,LogisticRegression,0,{'C': 0.1},0.9432624113475178
+42,PaDEL,LogisticRegression,1,{'C': 1.0},0.9616724738675958
+42,PaDEL,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9614035087719298
+42,PaDEL,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.958041958041958
+42,PaDEL,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9724137931034482
+42,PaDEL,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9757785467128027
+42,SMILES,LogisticRegression,0,{'C': 0.1},0.8615384615384616
+42,SMILES,LogisticRegression,1,{'C': 1.0},0.9117647058823529
+42,SMILES,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9399293286219081
+42,SMILES,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9513888888888888
+42,SMILES,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9432624113475178
+42,SMILES,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9466192170818505
+43,PaDEL,LogisticRegression,0,{'C': 0.1},0.9285714285714286
+43,PaDEL,LogisticRegression,1,{'C': 1.0},0.9263157894736842
+43,PaDEL,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9387755102040817
+43,PaDEL,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9423728813559322
+43,PaDEL,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9383561643835616
+43,PaDEL,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9419795221843004
+43,SMILES,LogisticRegression,0,{'C': 0.1},0.8768115942028986
+43,SMILES,LogisticRegression,1,{'C': 1.0},0.9090909090909091
+43,SMILES,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9204152249134948
+43,SMILES,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9166666666666666
+43,SMILES,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9278350515463918
+43,SMILES,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9278350515463918
+44,PaDEL,LogisticRegression,0,{'C': 0.1},0.958904109589041
+44,PaDEL,LogisticRegression,1,{'C': 1.0},0.9553264604810997
+44,PaDEL,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9491525423728814
+44,PaDEL,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9627118644067797
+44,PaDEL,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9527027027027027
+44,PaDEL,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9594594594594594
+44,SMILES,LogisticRegression,0,{'C': 0.1},0.9078014184397163
+44,SMILES,LogisticRegression,1,{'C': 1.0},0.9230769230769231
+44,SMILES,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9559322033898305
+44,SMILES,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9559322033898305
+44,SMILES,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.952054794520548
+44,SMILES,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9556313993174061
+45,PaDEL,LogisticRegression,0,{'C': 0.1},0.926829268292683
+45,PaDEL,LogisticRegression,1,{'C': 1.0},0.9300699300699301
+45,PaDEL,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9556313993174061
+45,PaDEL,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.962457337883959
+45,PaDEL,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9455782312925171
+45,PaDEL,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9423728813559322
+45,SMILES,LogisticRegression,0,{'C': 0.1},0.8857142857142857
+45,SMILES,LogisticRegression,1,{'C': 1.0},0.9310344827586207
+45,SMILES,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9491525423728814
+45,SMILES,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9523809523809523
+45,SMILES,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9236111111111112
+45,SMILES,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9347079037800687
+46,PaDEL,LogisticRegression,0,{'C': 0.1},0.951048951048951
+46,PaDEL,LogisticRegression,1,{'C': 1.0},0.9513888888888888
+46,PaDEL,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9559322033898305
+46,PaDEL,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9556313993174061
+46,PaDEL,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9419795221843004
+46,PaDEL,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9423728813559322
+46,SMILES,LogisticRegression,0,{'C': 0.1},0.9
+46,SMILES,LogisticRegression,1,{'C': 1.0},0.9225352112676056
+46,SMILES,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9342560553633218
+46,SMILES,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9488054607508533
+46,SMILES,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9310344827586207
+46,SMILES,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9351535836177475
+47,PaDEL,LogisticRegression,0,{'C': 0.1},0.95
+47,PaDEL,LogisticRegression,1,{'C': 1.0},0.9436619718309859
+47,PaDEL,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9688581314878892
+47,PaDEL,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9791666666666666
+47,PaDEL,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9686411149825784
+47,PaDEL,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9655172413793104
+47,SMILES,LogisticRegression,0,{'C': 0.1},0.9018181818181819
+47,SMILES,LogisticRegression,1,{'C': 1.0},0.9333333333333333
+47,SMILES,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9440559440559441
+47,SMILES,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9407665505226481
+47,SMILES,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9375
+47,SMILES,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9411764705882353
+48,PaDEL,LogisticRegression,0,{'C': 0.1},0.9187279151943463
+48,PaDEL,LogisticRegression,1,{'C': 1.0},0.9192982456140351
+48,PaDEL,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9366197183098591
+48,PaDEL,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9403508771929825
+48,PaDEL,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9375
+48,PaDEL,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9370629370629371
+48,SMILES,LogisticRegression,0,{'C': 0.1},0.8560885608856088
+48,SMILES,LogisticRegression,1,{'C': 1.0},0.8880866425992779
+48,SMILES,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9300699300699301
+48,SMILES,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9411764705882353
+48,SMILES,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9236111111111112
+48,SMILES,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9273356401384083
+49,PaDEL,LogisticRegression,0,{'C': 0.1},0.9523809523809523
+49,PaDEL,LogisticRegression,1,{'C': 1.0},0.9565217391304348
+49,PaDEL,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9565217391304348
+49,PaDEL,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9565217391304348
+49,PaDEL,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9565217391304348
+49,PaDEL,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9565217391304348
+49,SMILES,LogisticRegression,0,{'C': 0.1},0.9052631578947369
+49,SMILES,LogisticRegression,1,{'C': 1.0},0.9342560553633218
+49,SMILES,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9419795221843004
+49,SMILES,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9562289562289562
+49,SMILES,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9459459459459459
+49,SMILES,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9463087248322147
+50,PaDEL,LogisticRegression,0,{'C': 0.1},0.9611307420494699
+50,PaDEL,LogisticRegression,1,{'C': 1.0},0.9469964664310954
+50,PaDEL,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9448275862068966
+50,PaDEL,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.952054794520548
+50,PaDEL,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9652777777777778
+50,PaDEL,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9616724738675958
+50,SMILES,LogisticRegression,0,{'C': 0.1},0.9010989010989011
+50,SMILES,LogisticRegression,1,{'C': 1.0},0.9357142857142857
+50,SMILES,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9300699300699301
+50,SMILES,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9411764705882353
+50,SMILES,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9230769230769231
+50,SMILES,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9448275862068966
+51,PaDEL,LogisticRegression,0,{'C': 0.1},0.9444444444444444
+51,PaDEL,LogisticRegression,1,{'C': 1.0},0.9415807560137457
+51,PaDEL,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9553264604810997
+51,PaDEL,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9448275862068966
+51,PaDEL,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.952054794520548
+51,PaDEL,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9455782312925171
+51,SMILES,LogisticRegression,0,{'C': 0.1},0.9078014184397163
+51,SMILES,LogisticRegression,1,{'C': 1.0},0.9342560553633218
+51,SMILES,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9411764705882353
+51,SMILES,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9448275862068966
+51,SMILES,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9347079037800687
+51,SMILES,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9288135593220339
+52,PaDEL,LogisticRegression,0,{'C': 0.1},0.9473684210526315
+52,PaDEL,LogisticRegression,1,{'C': 1.0},0.9477351916376306
+52,PaDEL,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9694915254237289
+52,PaDEL,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9694915254237289
+52,PaDEL,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9523809523809523
+52,PaDEL,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9692832764505119
+52,SMILES,LogisticRegression,0,{'C': 0.1},0.8888888888888888
+52,SMILES,LogisticRegression,1,{'C': 1.0},0.9124087591240876
+52,SMILES,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9480968858131488
+52,SMILES,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9480968858131488
+52,SMILES,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9366197183098591
+52,SMILES,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9333333333333333
+53,PaDEL,LogisticRegression,0,{'C': 0.1},0.9351535836177475
+53,PaDEL,LogisticRegression,1,{'C': 1.0},0.9355932203389831
+53,PaDEL,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9463087248322147
+53,PaDEL,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9491525423728814
+53,PaDEL,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9319727891156463
+53,PaDEL,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9435215946843853
+53,SMILES,LogisticRegression,0,{'C': 0.1},0.9090909090909091
+53,SMILES,LogisticRegression,1,{'C': 1.0},0.9020979020979021
+53,SMILES,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9319727891156463
+53,SMILES,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9324324324324325
+53,SMILES,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9204152249134948
+53,SMILES,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9178082191780822
+54,PaDEL,LogisticRegression,0,{'C': 0.1},0.958041958041958
+54,PaDEL,LogisticRegression,1,{'C': 1.0},0.9616724738675958
+54,PaDEL,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9550173010380623
+54,PaDEL,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9553264604810997
+54,PaDEL,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9694915254237289
+54,PaDEL,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9662162162162162
+54,SMILES,LogisticRegression,0,{'C': 0.1},0.9257950530035336
+54,SMILES,LogisticRegression,1,{'C': 1.0},0.9257950530035336
+54,SMILES,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9556313993174061
+54,SMILES,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9657534246575342
+54,SMILES,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9553264604810997
+54,SMILES,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9553264604810997
+55,PaDEL,LogisticRegression,0,{'C': 0.1},0.9366197183098591
+55,PaDEL,LogisticRegression,1,{'C': 1.0},0.9436619718309859
+55,PaDEL,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9662162162162162
+55,PaDEL,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9659863945578231
+55,PaDEL,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9594594594594594
+55,PaDEL,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9594594594594594
+55,SMILES,LogisticRegression,0,{'C': 0.1},0.8717948717948718
+55,SMILES,LogisticRegression,1,{'C': 1.0},0.9
+55,SMILES,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9553264604810997
+55,SMILES,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9627118644067797
+55,SMILES,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9517241379310345
+55,SMILES,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9517241379310345
+56,PaDEL,LogisticRegression,0,{'C': 0.1},0.9424460431654677
+56,PaDEL,LogisticRegression,1,{'C': 1.0},0.9361702127659575
+56,PaDEL,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9547038327526133
+56,PaDEL,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9547038327526133
+56,PaDEL,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9586206896551724
+56,PaDEL,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9550173010380623
+56,SMILES,LogisticRegression,0,{'C': 0.1},0.8929889298892989
+56,SMILES,LogisticRegression,1,{'C': 1.0},0.920863309352518
+56,SMILES,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9366197183098591
+56,SMILES,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9366197183098591
+56,SMILES,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9399293286219081
+56,SMILES,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9361702127659575
+57,PaDEL,LogisticRegression,0,{'C': 0.1},0.926829268292683
+57,PaDEL,LogisticRegression,1,{'C': 1.0},0.9379310344827586
+57,PaDEL,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9423728813559322
+57,PaDEL,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9387755102040817
+57,PaDEL,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9480968858131488
+57,PaDEL,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9448275862068966
+57,SMILES,LogisticRegression,0,{'C': 0.1},0.8785714285714286
+57,SMILES,LogisticRegression,1,{'C': 1.0},0.9204152249134948
+57,SMILES,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9236111111111112
+57,SMILES,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9315068493150684
+57,SMILES,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9198606271777003
+57,SMILES,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9198606271777003
+58,PaDEL,LogisticRegression,0,{'C': 0.1},0.9440559440559441
+58,PaDEL,LogisticRegression,1,{'C': 1.0},0.9375
+58,PaDEL,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9547038327526133
+58,PaDEL,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9547038327526133
+58,PaDEL,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9484536082474226
+58,PaDEL,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9484536082474226
+58,SMILES,LogisticRegression,0,{'C': 0.1},0.8736462093862816
+58,SMILES,LogisticRegression,1,{'C': 1.0},0.9328621908127208
+58,SMILES,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9583333333333334
+58,SMILES,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9407665505226481
+58,SMILES,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9480968858131488
+58,SMILES,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9477351916376306
+59,PaDEL,LogisticRegression,0,{'C': 0.1},0.926829268292683
+59,PaDEL,LogisticRegression,1,{'C': 1.0},0.9342560553633218
+59,PaDEL,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9491525423728814
+59,PaDEL,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9455782312925171
+59,PaDEL,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9351535836177475
+59,PaDEL,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9319727891156463
+59,SMILES,LogisticRegression,0,{'C': 0.1},0.8661971830985915
+59,SMILES,LogisticRegression,1,{'C': 1.0},0.9128919860627178
+59,SMILES,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9278350515463918
+59,SMILES,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9283276450511946
+59,SMILES,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9283276450511946
+59,SMILES,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9241379310344827
+60,PaDEL,LogisticRegression,0,{'C': 0.1},0.9477351916376306
+60,PaDEL,LogisticRegression,1,{'C': 1.0},0.9513888888888888
+60,PaDEL,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9455782312925171
+60,PaDEL,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9488054607508533
+60,PaDEL,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9530201342281879
+60,PaDEL,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9556313993174061
+60,SMILES,LogisticRegression,0,{'C': 0.1},0.8634686346863468
+60,SMILES,LogisticRegression,1,{'C': 1.0},0.9154929577464789
+60,SMILES,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9342560553633218
+60,SMILES,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9347079037800687
+60,SMILES,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9236111111111112
+60,SMILES,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9379310344827586
+61,PaDEL,LogisticRegression,0,{'C': 0.1},0.9383561643835616
+61,PaDEL,LogisticRegression,1,{'C': 1.0},0.9491525423728814
+61,PaDEL,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9533333333333334
+61,PaDEL,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9565217391304348
+61,PaDEL,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.959731543624161
+61,PaDEL,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9664429530201343
+61,SMILES,LogisticRegression,0,{'C': 0.1},0.9014084507042254
+61,SMILES,LogisticRegression,1,{'C': 1.0},0.9310344827586207
+61,SMILES,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9459459459459459
+61,SMILES,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9463087248322147
+61,SMILES,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9491525423728814
+61,SMILES,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9491525423728814
+62,PaDEL,LogisticRegression,0,{'C': 0.1},0.9568345323741008
+62,PaDEL,LogisticRegression,1,{'C': 1.0},0.9492753623188406
+62,PaDEL,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9655172413793104
+62,PaDEL,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9550173010380623
+62,PaDEL,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9688581314878892
+62,PaDEL,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9722222222222222
+62,SMILES,LogisticRegression,0,{'C': 0.1},0.9029850746268657
+62,SMILES,LogisticRegression,1,{'C': 1.0},0.9458483754512635
+62,SMILES,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9652777777777778
+62,SMILES,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.965034965034965
+62,SMILES,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9611307420494699
+62,SMILES,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.968421052631579
+63,PaDEL,LogisticRegression,0,{'C': 0.1},0.9300699300699301
+63,PaDEL,LogisticRegression,1,{'C': 1.0},0.926829268292683
+63,PaDEL,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9553264604810997
+63,PaDEL,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9556313993174061
+63,PaDEL,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9517241379310345
+63,PaDEL,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9591836734693877
+63,SMILES,LogisticRegression,0,{'C': 0.1},0.8953068592057761
+63,SMILES,LogisticRegression,1,{'C': 1.0},0.9187279151943463
+63,SMILES,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9488054607508533
+63,SMILES,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9553264604810997
+63,SMILES,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9310344827586207
+63,SMILES,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.926829268292683
+64,PaDEL,LogisticRegression,0,{'C': 0.1},0.9583333333333334
+64,PaDEL,LogisticRegression,1,{'C': 1.0},0.9616724738675958
+64,PaDEL,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9692832764505119
+64,PaDEL,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9692832764505119
+64,PaDEL,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9659863945578231
+64,PaDEL,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9694915254237289
+64,SMILES,LogisticRegression,0,{'C': 0.1},0.9214285714285714
+64,SMILES,LogisticRegression,1,{'C': 1.0},0.9436619718309859
+64,SMILES,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9659863945578231
+64,SMILES,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9692832764505119
+64,SMILES,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9583333333333334
+64,SMILES,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9553264604810997
+65,PaDEL,LogisticRegression,0,{'C': 0.1},0.9290780141843972
+65,PaDEL,LogisticRegression,1,{'C': 1.0},0.9257950530035336
+65,PaDEL,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9455782312925171
+65,PaDEL,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9523809523809523
+65,PaDEL,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9591836734693877
+65,PaDEL,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9627118644067797
+65,SMILES,LogisticRegression,0,{'C': 0.1},0.8880866425992779
+65,SMILES,LogisticRegression,1,{'C': 1.0},0.9110320284697508
+65,SMILES,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9484536082474226
+65,SMILES,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9411764705882353
+65,SMILES,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9419795221843004
+65,SMILES,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9411764705882353
+66,PaDEL,LogisticRegression,0,{'C': 0.1},0.9619377162629758
+66,PaDEL,LogisticRegression,1,{'C': 1.0},0.9655172413793104
+66,PaDEL,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9559322033898305
+66,PaDEL,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.962457337883959
+66,PaDEL,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.952054794520548
+66,PaDEL,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9523809523809523
+66,SMILES,LogisticRegression,0,{'C': 0.1},0.911660777385159
+66,SMILES,LogisticRegression,1,{'C': 1.0},0.926829268292683
+66,SMILES,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9550173010380623
+66,SMILES,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9550173010380623
+66,SMILES,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9411764705882353
+66,SMILES,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9448275862068966
+67,PaDEL,LogisticRegression,0,{'C': 0.1},0.9337979094076655
+67,PaDEL,LogisticRegression,1,{'C': 1.0},0.9444444444444444
+67,PaDEL,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9724137931034482
+67,PaDEL,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9690721649484536
+67,PaDEL,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9655172413793104
+67,PaDEL,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.962457337883959
+67,SMILES,LogisticRegression,0,{'C': 0.1},0.9064748201438849
+67,SMILES,LogisticRegression,1,{'C': 1.0},0.9436619718309859
+67,SMILES,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9547038327526133
+67,SMILES,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9513888888888888
+67,SMILES,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9484536082474226
+67,SMILES,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9484536082474226
+68,PaDEL,LogisticRegression,0,{'C': 0.1},0.9342560553633218
+68,PaDEL,LogisticRegression,1,{'C': 1.0},0.9342560553633218
+68,PaDEL,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9491525423728814
+68,PaDEL,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9488054607508533
+68,PaDEL,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9494949494949495
+68,PaDEL,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9530201342281879
+68,SMILES,LogisticRegression,0,{'C': 0.1},0.8785714285714286
+68,SMILES,LogisticRegression,1,{'C': 1.0},0.9351535836177475
+68,SMILES,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9480968858131488
+68,SMILES,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9553264604810997
+68,SMILES,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9488054607508533
+68,SMILES,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9419795221843004
+69,PaDEL,LogisticRegression,0,{'C': 0.1},0.9473684210526315
+69,PaDEL,LogisticRegression,1,{'C': 1.0},0.9547038327526133
+69,PaDEL,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.958904109589041
+69,PaDEL,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9553264604810997
+69,PaDEL,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9550173010380623
+69,PaDEL,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9513888888888888
+69,SMILES,LogisticRegression,0,{'C': 0.1},0.9252669039145908
+69,SMILES,LogisticRegression,1,{'C': 1.0},0.9328621908127208
+69,SMILES,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9583333333333334
+69,SMILES,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9690721649484536
+69,SMILES,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9403508771929825
+69,SMILES,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9477351916376306
+70,PaDEL,LogisticRegression,0,{'C': 0.1},0.9436619718309859
+70,PaDEL,LogisticRegression,1,{'C': 1.0},0.951048951048951
+70,PaDEL,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9484536082474226
+70,PaDEL,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9484536082474226
+70,PaDEL,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9583333333333334
+70,PaDEL,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9619377162629758
+70,SMILES,LogisticRegression,0,{'C': 0.1},0.875
+70,SMILES,LogisticRegression,1,{'C': 1.0},0.9323843416370107
+70,SMILES,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.952054794520548
+70,SMILES,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9480968858131488
+70,SMILES,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9448275862068966
+70,SMILES,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9556313993174061
+71,PaDEL,LogisticRegression,0,{'C': 0.1},0.9619377162629758
+71,PaDEL,LogisticRegression,1,{'C': 1.0},0.951048951048951
+71,PaDEL,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9553264604810997
+71,PaDEL,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9484536082474226
+71,PaDEL,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9448275862068966
+71,PaDEL,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9448275862068966
+71,SMILES,LogisticRegression,0,{'C': 0.1},0.8181818181818182
+71,SMILES,LogisticRegression,1,{'C': 1.0},0.9110320284697508
+71,SMILES,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9379310344827586
+71,SMILES,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9488054607508533
+71,SMILES,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9370629370629371
+71,SMILES,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9305555555555556
+72,PaDEL,LogisticRegression,0,{'C': 0.1},0.9236363636363636
+72,PaDEL,LogisticRegression,1,{'C': 1.0},0.950354609929078
+72,PaDEL,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9611307420494699
+72,PaDEL,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9611307420494699
+72,PaDEL,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9577464788732394
+72,PaDEL,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9543859649122807
+72,SMILES,LogisticRegression,0,{'C': 0.1},0.835820895522388
+72,SMILES,LogisticRegression,1,{'C': 1.0},0.9202898550724637
+72,SMILES,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9537366548042705
+72,SMILES,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.958041958041958
+72,SMILES,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9432624113475178
+72,SMILES,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9611307420494699
+73,PaDEL,LogisticRegression,0,{'C': 0.1},0.9381818181818182
+73,PaDEL,LogisticRegression,1,{'C': 1.0},0.9420289855072463
+73,PaDEL,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.975609756097561
+73,PaDEL,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.968421052631579
+73,PaDEL,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9790209790209791
+73,PaDEL,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9754385964912281
+73,SMILES,LogisticRegression,0,{'C': 0.1},0.8646616541353384
+73,SMILES,LogisticRegression,1,{'C': 1.0},0.9214285714285714
+73,SMILES,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.958041958041958
+73,SMILES,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.965034965034965
+73,SMILES,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9583333333333334
+73,SMILES,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9616724738675958
+74,PaDEL,LogisticRegression,0,{'C': 0.1},0.9553264604810997
+74,PaDEL,LogisticRegression,1,{'C': 1.0},0.9488054607508533
+74,PaDEL,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.958904109589041
+74,PaDEL,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9627118644067797
+74,PaDEL,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9659863945578231
+74,PaDEL,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9657534246575342
+74,SMILES,LogisticRegression,0,{'C': 0.1},0.9057971014492754
+74,SMILES,LogisticRegression,1,{'C': 1.0},0.9361702127659575
+74,SMILES,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9591836734693877
+74,SMILES,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9591836734693877
+74,SMILES,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.958041958041958
+74,SMILES,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9586206896551724
+75,PaDEL,LogisticRegression,0,{'C': 0.1},0.9574468085106383
+75,PaDEL,LogisticRegression,1,{'C': 1.0},0.951048951048951
+75,PaDEL,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9794520547945206
+75,PaDEL,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9794520547945206
+75,PaDEL,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9828178694158075
+75,PaDEL,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9829351535836177
+75,SMILES,LogisticRegression,0,{'C': 0.1},0.9616724738675958
+75,SMILES,LogisticRegression,1,{'C': 1.0},0.9686411149825784
+75,SMILES,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.972027972027972
+75,SMILES,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9647887323943662
+75,SMILES,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9722222222222222
+75,SMILES,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9791666666666666
+76,PaDEL,LogisticRegression,0,{'C': 0.1},0.9436619718309859
+76,PaDEL,LogisticRegression,1,{'C': 1.0},0.950354609929078
+76,PaDEL,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9619377162629758
+76,PaDEL,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9619377162629758
+76,PaDEL,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9619377162629758
+76,PaDEL,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9655172413793104
+76,SMILES,LogisticRegression,0,{'C': 0.1},0.9051094890510949
+76,SMILES,LogisticRegression,1,{'C': 1.0},0.9611307420494699
+76,SMILES,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.962457337883959
+76,SMILES,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.962457337883959
+76,SMILES,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9621993127147767
+76,SMILES,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.958904109589041
+77,PaDEL,LogisticRegression,0,{'C': 0.1},0.9681978798586572
+77,PaDEL,LogisticRegression,1,{'C': 1.0},0.9574468085106383
+77,PaDEL,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9586206896551724
+77,PaDEL,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.958904109589041
+77,PaDEL,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9619377162629758
+77,PaDEL,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9550173010380623
+77,SMILES,LogisticRegression,0,{'C': 0.1},0.9202898550724637
+77,SMILES,LogisticRegression,1,{'C': 1.0},0.9395017793594306
+77,SMILES,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9517241379310345
+77,SMILES,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9480968858131488
+77,SMILES,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9513888888888888
+77,SMILES,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9444444444444444
+78,PaDEL,LogisticRegression,0,{'C': 0.1},0.9619377162629758
+78,PaDEL,LogisticRegression,1,{'C': 1.0},0.9655172413793104
+78,PaDEL,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9692832764505119
+78,PaDEL,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9726027397260274
+78,PaDEL,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9621993127147767
+78,PaDEL,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.962457337883959
+78,SMILES,LogisticRegression,0,{'C': 0.1},0.9
+78,SMILES,LogisticRegression,1,{'C': 1.0},0.9370629370629371
+78,SMILES,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9583333333333334
+78,SMILES,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9517241379310345
+78,SMILES,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9379310344827586
+78,SMILES,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9452054794520548
+79,PaDEL,LogisticRegression,0,{'C': 0.1},0.9614035087719298
+79,PaDEL,LogisticRegression,1,{'C': 1.0},0.965034965034965
+79,PaDEL,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.958904109589041
+79,PaDEL,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9657534246575342
+79,PaDEL,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9724137931034482
+79,PaDEL,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9690721649484536
+79,SMILES,LogisticRegression,0,{'C': 0.1},0.8721804511278195
+79,SMILES,LogisticRegression,1,{'C': 1.0},0.9247311827956989
+79,SMILES,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9556313993174061
+79,SMILES,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.952054794520548
+79,SMILES,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9407665505226481
+79,SMILES,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9480968858131488
+80,PaDEL,LogisticRegression,0,{'C': 0.1},0.951048951048951
+80,PaDEL,LogisticRegression,1,{'C': 1.0},0.9547038327526133
+80,PaDEL,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9616724738675958
+80,PaDEL,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9550173010380623
+80,PaDEL,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9513888888888888
+80,PaDEL,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9513888888888888
+80,SMILES,LogisticRegression,0,{'C': 0.1},0.8920863309352518
+80,SMILES,LogisticRegression,1,{'C': 1.0},0.9263157894736842
+80,SMILES,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9694915254237289
+80,SMILES,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9694915254237289
+80,SMILES,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9550173010380623
+80,SMILES,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.952054794520548
+81,PaDEL,LogisticRegression,0,{'C': 0.1},0.9611307420494699
+81,PaDEL,LogisticRegression,1,{'C': 1.0},0.9577464788732394
+81,PaDEL,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9662162162162162
+81,PaDEL,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9694915254237289
+81,PaDEL,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9659863945578231
+81,PaDEL,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9659863945578231
+81,SMILES,LogisticRegression,0,{'C': 0.1},0.911660777385159
+81,SMILES,LogisticRegression,1,{'C': 1.0},0.9375
+81,SMILES,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9586206896551724
+81,SMILES,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9655172413793104
+81,SMILES,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9583333333333334
+81,SMILES,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9550173010380623
+82,PaDEL,LogisticRegression,0,{'C': 0.1},0.9543859649122807
+82,PaDEL,LogisticRegression,1,{'C': 1.0},0.958041958041958
+82,PaDEL,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9690721649484536
+82,PaDEL,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9795918367346939
+82,PaDEL,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9619377162629758
+82,PaDEL,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9757785467128027
+82,SMILES,LogisticRegression,0,{'C': 0.1},0.9090909090909091
+82,SMILES,LogisticRegression,1,{'C': 1.0},0.9537366548042705
+82,SMILES,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9616724738675958
+82,SMILES,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9655172413793104
+82,SMILES,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.950354609929078
+82,SMILES,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9550173010380623
+83,PaDEL,LogisticRegression,0,{'C': 0.1},0.9295774647887324
+83,PaDEL,LogisticRegression,1,{'C': 1.0},0.9403508771929825
+83,PaDEL,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9726027397260274
+83,PaDEL,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9761092150170648
+83,PaDEL,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.952054794520548
+83,PaDEL,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9553264604810997
+83,SMILES,LogisticRegression,0,{'C': 0.1},0.8905109489051095
+83,SMILES,LogisticRegression,1,{'C': 1.0},0.9370629370629371
+83,SMILES,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9621993127147767
+83,SMILES,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.958904109589041
+83,SMILES,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9553264604810997
+83,SMILES,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.962457337883959
+84,PaDEL,LogisticRegression,0,{'C': 0.1},0.931899641577061
+84,PaDEL,LogisticRegression,1,{'C': 1.0},0.9337979094076655
+84,PaDEL,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9614035087719298
+84,PaDEL,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9686411149825784
+84,PaDEL,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9513888888888888
+84,PaDEL,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9583333333333334
+84,SMILES,LogisticRegression,0,{'C': 0.1},0.8805970149253731
+84,SMILES,LogisticRegression,1,{'C': 1.0},0.9130434782608695
+84,SMILES,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9550173010380623
+84,SMILES,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9688581314878892
+84,SMILES,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.968421052631579
+84,SMILES,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9724137931034482
+85,PaDEL,LogisticRegression,0,{'C': 0.1},0.9328621908127208
+85,PaDEL,LogisticRegression,1,{'C': 1.0},0.9436619718309859
+85,PaDEL,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9619377162629758
+85,PaDEL,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9553264604810997
+85,PaDEL,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9419795221843004
+85,PaDEL,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9550173010380623
+85,SMILES,LogisticRegression,0,{'C': 0.1},0.8666666666666667
+85,SMILES,LogisticRegression,1,{'C': 1.0},0.9252669039145908
+85,SMILES,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9513888888888888
+85,SMILES,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9583333333333334
+85,SMILES,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9507042253521126
+85,SMILES,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.951048951048951
+86,PaDEL,LogisticRegression,0,{'C': 0.1},0.9411764705882353
+86,PaDEL,LogisticRegression,1,{'C': 1.0},0.9484536082474226
+86,PaDEL,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9523809523809523
+86,PaDEL,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9431438127090301
+86,PaDEL,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9562289562289562
+86,PaDEL,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9627118644067797
+86,SMILES,LogisticRegression,0,{'C': 0.1},0.8791208791208791
+86,SMILES,LogisticRegression,1,{'C': 1.0},0.9181494661921709
+86,SMILES,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9556313993174061
+86,SMILES,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9591836734693877
+86,SMILES,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9448275862068966
+86,SMILES,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9553264604810997
+87,PaDEL,LogisticRegression,0,{'C': 0.1},0.9436619718309859
+87,PaDEL,LogisticRegression,1,{'C': 1.0},0.9477351916376306
+87,PaDEL,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9556313993174061
+87,PaDEL,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9690721649484536
+87,PaDEL,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9722222222222222
+87,PaDEL,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9621993127147767
+87,SMILES,LogisticRegression,0,{'C': 0.1},0.9241379310344827
+87,SMILES,LogisticRegression,1,{'C': 1.0},0.9219858156028369
+87,SMILES,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9523809523809523
+87,SMILES,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9696969696969697
+87,SMILES,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9448275862068966
+87,SMILES,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9627118644067797
+88,PaDEL,LogisticRegression,0,{'C': 0.1},0.9257950530035336
+88,PaDEL,LogisticRegression,1,{'C': 1.0},0.9480968858131488
+88,PaDEL,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9494949494949495
+88,PaDEL,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9562289562289562
+88,PaDEL,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9556313993174061
+88,PaDEL,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9431438127090301
+88,SMILES,LogisticRegression,0,{'C': 0.1},0.8654545454545455
+88,SMILES,LogisticRegression,1,{'C': 1.0},0.9059233449477352
+88,SMILES,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9562289562289562
+88,SMILES,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9498327759197325
+88,SMILES,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9523809523809523
+88,SMILES,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9427609427609428
+89,PaDEL,LogisticRegression,0,{'C': 0.1},0.9477351916376306
+89,PaDEL,LogisticRegression,1,{'C': 1.0},0.9480968858131488
+89,PaDEL,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9391891891891891
+89,PaDEL,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9391891891891891
+89,PaDEL,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9415807560137457
+89,PaDEL,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9419795221843004
+89,SMILES,LogisticRegression,0,{'C': 0.1},0.8683274021352313
+89,SMILES,LogisticRegression,1,{'C': 1.0},0.9090909090909091
+89,SMILES,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9395973154362416
+89,SMILES,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9463087248322147
+89,SMILES,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9455782312925171
+89,SMILES,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9355932203389831
+90,PaDEL,LogisticRegression,0,{'C': 0.1},0.9333333333333333
+90,PaDEL,LogisticRegression,1,{'C': 1.0},0.9415807560137457
+90,PaDEL,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9337979094076655
+90,PaDEL,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9366197183098591
+90,PaDEL,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9379310344827586
+90,PaDEL,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9407665505226481
+90,SMILES,LogisticRegression,0,{'C': 0.1},0.8571428571428571
+90,SMILES,LogisticRegression,1,{'C': 1.0},0.8992805755395683
+90,SMILES,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9192982456140351
+90,SMILES,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.926829268292683
+90,SMILES,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9230769230769231
+90,SMILES,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9204152249134948
+91,PaDEL,LogisticRegression,0,{'C': 0.1},0.9473684210526315
+91,PaDEL,LogisticRegression,1,{'C': 1.0},0.9477351916376306
+91,PaDEL,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9553264604810997
+91,PaDEL,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.952054794520548
+91,PaDEL,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9480968858131488
+91,PaDEL,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9455782312925171
+91,SMILES,LogisticRegression,0,{'C': 0.1},0.8978102189781022
+91,SMILES,LogisticRegression,1,{'C': 1.0},0.9333333333333333
+91,SMILES,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.962457337883959
+91,SMILES,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9659863945578231
+91,SMILES,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9517241379310345
+91,SMILES,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9523809523809523
+92,PaDEL,LogisticRegression,0,{'C': 0.1},0.9361702127659575
+92,PaDEL,LogisticRegression,1,{'C': 1.0},0.9436619718309859
+92,PaDEL,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9455782312925171
+92,PaDEL,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9455782312925171
+92,PaDEL,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9556313993174061
+92,PaDEL,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9556313993174061
+92,SMILES,LogisticRegression,0,{'C': 0.1},0.8936170212765957
+92,SMILES,LogisticRegression,1,{'C': 1.0},0.9225352112676056
+92,SMILES,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.952054794520548
+92,SMILES,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9527027027027027
+92,SMILES,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9452054794520548
+92,SMILES,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9586206896551724
+93,PaDEL,LogisticRegression,0,{'C': 0.1},0.9469964664310954
+93,PaDEL,LogisticRegression,1,{'C': 1.0},0.9403508771929825
+93,PaDEL,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.952054794520548
+93,PaDEL,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9627118644067797
+93,PaDEL,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9419795221843004
+93,PaDEL,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9452054794520548
+93,SMILES,LogisticRegression,0,{'C': 0.1},0.9169675090252708
+93,SMILES,LogisticRegression,1,{'C': 1.0},0.9290780141843972
+93,SMILES,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9543859649122807
+93,SMILES,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9690721649484536
+93,SMILES,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9547038327526133
+93,SMILES,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9550173010380623
+94,PaDEL,LogisticRegression,0,{'C': 0.1},0.946236559139785
+94,PaDEL,LogisticRegression,1,{'C': 1.0},0.9574468085106383
+94,PaDEL,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9507042253521126
+94,PaDEL,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.950354609929078
+94,PaDEL,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9436619718309859
+94,PaDEL,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9436619718309859
+94,SMILES,LogisticRegression,0,{'C': 0.1},0.8614232209737828
+94,SMILES,LogisticRegression,1,{'C': 1.0},0.8773234200743495
+94,SMILES,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9328621908127208
+94,SMILES,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9403508771929825
+94,SMILES,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9366197183098591
+94,SMILES,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9300699300699301
+95,PaDEL,LogisticRegression,0,{'C': 0.1},0.9343065693430657
+95,PaDEL,LogisticRegression,1,{'C': 1.0},0.9386281588447654
+95,PaDEL,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9652777777777778
+95,PaDEL,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9616724738675958
+95,PaDEL,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9577464788732394
+95,PaDEL,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9547038327526133
+95,SMILES,LogisticRegression,0,{'C': 0.1},0.8847583643122676
+95,SMILES,LogisticRegression,1,{'C': 1.0},0.9191176470588235
+95,SMILES,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9163636363636364
+95,SMILES,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9390681003584229
+95,SMILES,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9323843416370107
+95,SMILES,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9361702127659575
+96,PaDEL,LogisticRegression,0,{'C': 0.1},0.9361702127659575
+96,PaDEL,LogisticRegression,1,{'C': 1.0},0.951048951048951
+96,PaDEL,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9351535836177475
+96,PaDEL,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9459459459459459
+96,PaDEL,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9379310344827586
+96,PaDEL,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9452054794520548
+96,SMILES,LogisticRegression,0,{'C': 0.1},0.9
+96,SMILES,LogisticRegression,1,{'C': 1.0},0.9187279151943463
+96,SMILES,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9347079037800687
+96,SMILES,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9423728813559322
+96,SMILES,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9484536082474226
+96,SMILES,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9448275862068966
+97,PaDEL,LogisticRegression,0,{'C': 0.1},0.9473684210526315
+97,PaDEL,LogisticRegression,1,{'C': 1.0},0.9366197183098591
+97,PaDEL,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9591836734693877
+97,PaDEL,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9556313993174061
+97,PaDEL,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9621993127147767
+97,PaDEL,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9692832764505119
+97,SMILES,LogisticRegression,0,{'C': 0.1},0.9175627240143369
+97,SMILES,LogisticRegression,1,{'C': 1.0},0.9252669039145908
+97,SMILES,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.951048951048951
+97,SMILES,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9547038327526133
+97,SMILES,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9444444444444444
+97,SMILES,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9477351916376306
+98,PaDEL,LogisticRegression,0,{'C': 0.1},0.9432624113475178
+98,PaDEL,LogisticRegression,1,{'C': 1.0},0.9440559440559441
+98,PaDEL,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9444444444444444
+98,PaDEL,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9517241379310345
+98,PaDEL,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9507042253521126
+98,PaDEL,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9616724738675958
+98,SMILES,LogisticRegression,0,{'C': 0.1},0.8978102189781022
+98,SMILES,LogisticRegression,1,{'C': 1.0},0.9432624113475178
+98,SMILES,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9473684210526315
+98,SMILES,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9621993127147767
+98,SMILES,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9444444444444444
+98,SMILES,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9513888888888888
+99,PaDEL,LogisticRegression,0,{'C': 0.1},0.9480968858131488
+99,PaDEL,LogisticRegression,1,{'C': 1.0},0.9444444444444444
+99,PaDEL,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9621993127147767
+99,PaDEL,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.9657534246575342
+99,PaDEL,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.9722222222222222
+99,PaDEL,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.9621993127147767
+99,SMILES,LogisticRegression,0,{'C': 0.1},0.9148936170212766
+99,SMILES,LogisticRegression,1,{'C': 1.0},0.9477351916376306
+99,SMILES,RandomForest,0,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 2}",0.9621993127147767
+99,SMILES,RandomForest,1,"{'n_estimators': 150, 'max_depth': None, 'min_samples_leaf': 1}",0.958904109589041
+99,SMILES,XGBoost,0,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}",0.952054794520548
+99,SMILES,XGBoost,1,"{'n_estimators': 150, 'max_depth': 5, 'learning_rate': 0.05}",0.952054794520548
